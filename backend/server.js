@@ -42,3 +42,5 @@ app.use('/health', (req, res) => {
   .catch((err)=>{
     console.log(`Error in Db connection ${err.message}`)
   })
+
+
